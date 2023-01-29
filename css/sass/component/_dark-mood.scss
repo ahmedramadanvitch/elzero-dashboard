@@ -1,0 +1,15 @@
+#toggle-mood{
+    position: fixed;
+    color: var(--text-black) !important;
+    top: 20px;
+    right: 95px;
+    font-size: 18px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: all 0.5s linear !important;
+    @include mobileScreen{
+        top: 370px;
+        left: 20px;
+        position: absolute !important;
+    }
+}
